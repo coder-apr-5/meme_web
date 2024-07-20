@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Rockwell;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF0000; 
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+button {
+    background-color: #FFDE4D; 
+    color: black;
+    padding: 0.6rem;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin:  6px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: ;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 5px;
+}
+
+form input, form textarea, form button {
+    margin-top: 5px;
+}
